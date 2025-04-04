@@ -1,6 +1,6 @@
 def slice_simple():
     texto = "Awesome"
-    comienzo = texto[1:4].lower()
+    comienzo = texto[0:4].lower()
     medio = texto[2:5].lower()
     todo = texto[ : ].lower()
     print(comienzo)
